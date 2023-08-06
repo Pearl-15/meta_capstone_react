@@ -2,9 +2,9 @@ import React from "react";
 
 function Highlights(){
     return(
-        <div className="main-grid">
+        <section className="highlights">
             <h1>This is the Highlights section</h1>
-        </div>
+        </section>
     )
 }
 

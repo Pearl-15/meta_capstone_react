@@ -2,9 +2,9 @@ import React from "react";
 
 function HeroSection(){
     return(
-        <div className="main-grid">
+        <section className="hero-section">
             <h1>This is the Hero Section</h1>
-        </div>
+        </section>
     )
 }
 

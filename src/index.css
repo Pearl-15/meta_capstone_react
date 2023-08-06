@@ -20,14 +20,44 @@ code {
   background-color: #f2f2f2; /* Optional background color */
 }
 
-.menu-list {
+.menu-list{
   display: flex; /* Use flexbox for horizontal layout */
   list-style: none; /* Remove default list styles */
   padding: 0; /* Remove default padding */
-
-
 }
 
-.menu-list li {
+.menu-list li{
   margin-right: 30px; /* Add 30px gap between list items */
+}
+
+/* Style for the links in their default state */
+.menu-link {
+  color: #333; /* Set the default color for the links */
+  text-decoration: none; /* Remove the default underline */
+}
+
+/* Style for the links when they are clicked */
+.menu-link:visited {
+  color: black; /* Set the color to black when the link is visited (clicked) */
+  font-weight: bold; /* You can add more styles as needed */
+}
+
+.hero-section{
+  background-color: #495E57;
+  height: 50vh;
+}
+
+.highlights, .about{
+  background-color: #EDEFEE;
+  height: 60vh;
+}
+
+.testimonials{
+  background-color: #EE9972;
+  height: 50vh;
+}
+
+.footer{
+  background-color: #FBDABB;
+  height: 50vh;
 }

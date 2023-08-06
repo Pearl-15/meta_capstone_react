@@ -2,9 +2,9 @@ import React from "react";
 
 function About(){
     return(
-        <div className="main-grid">
+        <section className="about">
             <h1>This is About section</h1>
-        </div>
+        </section>
     )
 }
 

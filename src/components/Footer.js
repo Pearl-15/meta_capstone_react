@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer(){
     return(
-        <div className="main-grid">
+        <section className="footer">
             <h1>This is Fooder</h1>
-        </div>
+        </section>
     )
 }
 
