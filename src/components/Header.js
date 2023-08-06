@@ -1,9 +1,17 @@
 import React from "react";
 
+
 function Header(){
     return(
         <div className="main-grid">
-            <h1>This is the Header</h1>
+          <img src="/Logo.svg"  alt="logo" />
+        <ul className="menu-list">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>MENU</li>
+            <li>RESERVATIONS</li>
+            <li>LOGIN</li>
+        </ul>
         </div>
     )
 }
